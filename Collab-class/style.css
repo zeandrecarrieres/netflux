@@ -1,0 +1,132 @@
+:root{
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+
+    --text-primary : #b6b6b6;
+    --text-secondary : #ececec;
+
+    --bg-primary:#23232e;
+    --bg-secondary:#141418;
+
+    --transition-speed:0.5s;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    width: 30vw;
+    height:5vh;
+}
+
+#navbar> ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 5vh;
+
+}
+body{
+    color:white;
+    background-color:black;
+    width:100%;
+}
+
+body::-webkit-scrollbar{
+    width:0.25rem;
+}
+#banner{
+    background-image: url( "https://www.natureauvol.com/sites/default/files/styles/image_de_page__1600x500_/public/page_presentation_special/ff_0.jpg?itok=vD5rdtFr");
+    height: 70vh;
+    opacity:0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    flex-direction: column;
+    text-shadow: 10px 0px 30px rgb(28, 19, 109);
+
+}
+#case{
+   max-width: 1800px;
+    margin: 0 1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    /* border: solid 2px rgb(20, 70, 128); */
+    box-shadow: 1px 3px 30px rgb(11, 37, 53);
+    padding:1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    transition: 0.5s;
+}
+
+#case:hover{
+    transform: scale(1.2,1.2);
+    box-shadow: 2px 4px 40px rgb(112, 112, 112);
+}
+
+#case img{
+    height: 200px;
+    width: 200px;
+}
+
+
+#synopsis{
+    font-size: 1.3rem;
+    color:rgb(94, 94, 94);
+    padding: 1rem;
+    
+}
+#details >p{
+    color: grey
+}
+#title-serie{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+main{
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+#container{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+#team{
+    display: flex;
+    justify-content: space-around;
+    color: grey
+}
+#team> div> h3{
+    text-transform:uppercase;
+}
+#ramouka{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+/* TEMPLATE DE LA SECTION CENTRALE TODO */
+
+#person-img{
+    width:50%;
+}
+
+#card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    &
+}
+
